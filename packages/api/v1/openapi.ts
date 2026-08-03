@@ -11,7 +11,7 @@ export const OpenAPIV1 = Object.assign(
         title: 'Documenso API',
         version: '1.0.0',
         description:
-          'API V1 has been deprecated. For more details, see https://docs.documenso.com/docs/developers/api/migrate-to-envelopes. \n\nThe Documenso API for retrieving, creating, updating and deleting documents.',
+          'API V1 has been deprecated. For more details, see https://sign.youtiva.com/docs/docs/developers/api/migrate-to-envelopes. \n\nThe Documenso API for retrieving, creating, updating and deleting documents.',
       },
       servers: [
         {

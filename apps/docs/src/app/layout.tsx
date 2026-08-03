@@ -1,23 +1,30 @@
 import { RootProvider } from 'fumadocs-ui/provider/next';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { JetBrains_Mono, Poppins } from 'next/font/google';
 import PlausibleProvider from 'next-plausible';
 
 import './global.css';
 
-const inter = Inter({
+const poppins = Poppins({
   subsets: ['latin'],
+  variable: '--font-poppins',
+  weight: ['400', '500', '600', '700'],
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-jetbrains-mono',
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://docs.documenso.com'),
+  metadataBase: new URL('https://sign.youtiva.com/docs'),
   title: {
-    template: '%s | Documenso Docs',
-    default: 'Documenso Docs',
+    template: '%s | Youtiva Sign Docs',
+    default: 'Youtiva Sign Docs',
   },
-  description: 'The official documentation for Documenso, the open-source document signing platform.',
+  description: 'Documentation for Youtiva Sign, covering document workflows, API integrations, and self-hosting.',
   openGraph: {
-    siteName: 'Documenso Docs',
+    siteName: 'Youtiva Sign Docs',
     type: 'website',
   },
   twitter: {
@@ -28,9 +35,9 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: LayoutProps<'/'>) {
   return (
-    <html lang="en" className={inter.className} suppressHydrationWarning>
+    <html lang="en" className={`${poppins.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
       <body className="flex min-h-screen flex-col">
-        <PlausibleProvider domain="documenso.com">
+        <PlausibleProvider domain="sign.youtiva.com">
           <RootProvider>{children}</RootProvider>
         </PlausibleProvider>
       </body>

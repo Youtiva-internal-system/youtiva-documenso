@@ -17,9 +17,9 @@ else
 fi
 
 printf "\n📚 Useful Links:\n"
-printf "📖 Documentation: https://docs.documenso.com\n"
-printf "🐳 Self-hosting guide: https://docs.documenso.com/developers/self-hosting\n"
-printf "🔐 Certificate setup: https://docs.documenso.com/developers/self-hosting/signing-certificate\n"
+printf "📖 Documentation: https://sign.youtiva.com/docs\n"
+printf "🐳 Self-hosting guide: https://sign.youtiva.com/docs/developers/self-hosting\n"
+printf "🔐 Certificate setup: https://sign.youtiva.com/docs/developers/self-hosting/signing-certificate\n"
 printf "🏥 Health check: http://localhost:3000/api/health\n"
 printf "📊 Certificate status: http://localhost:3000/api/certificate-status\n"
 printf "👥 Community: https://github.com/documenso/documenso\n\n"

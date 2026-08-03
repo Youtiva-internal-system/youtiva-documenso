@@ -5,186 +5,186 @@
 @layer base {
   :root,
   .dark-mode-disabled {
-    --background: 0 0% 100%;
-    --foreground: 222.2 47.4% 11.2%;
+    --background: 60 16.67% 97.65%;
+    --foreground: 240 16.67% 9.41%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 60 4.76% 95.88%;
+    --muted-foreground: 240 11.54% 40.78%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 47.4% 11.2%;
+    --popover-foreground: 240 16.67% 9.41%;
 
     --card: 0 0% 100%;
-    --card-border: 214.3 31.8% 91.4%;
-    --card-border-tint: 112 205 159;
-    --card-foreground: 222.2 47.4% 11.2%;
+    --card-border: 52.5 18.18% 91.37%;
+    --card-border-tint: 255 144 118;
+    --card-foreground: 240 16.67% 9.41%;
 
-    --field-card: 95 74% 90%;
-    --field-card-border: 95.08 71.08% 67.45%;
-    --field-card-foreground: 222.2 47.4% 11.2%;
+    --field-card: 12 100% 96.08%;
+    --field-card-border: 11.39 100% 73.14%;
+    --field-card-foreground: 240 16.67% 9.41%;
 
-    --widget: 0 0% 97%;
-    --widget-foreground: 0 0% 95%;
+    --widget: 60 4.76% 95.88%;
+    --widget-foreground: 52.5 18.18% 91.37%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+    --border: 52.5 18.18% 91.37%;
+    --input: 52.5 18.18% 91.37%;
 
-    --primary: 95.08 71.08% 67.45%;
-    --primary-foreground: 95.08 71.08% 10%;
+    --primary: 11.39 100% 73.14%;
+    --primary-foreground: 240 16.67% 9.41%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 52.5 18.18% 91.37%;
+    --secondary-foreground: 240 16.67% 9.41%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 268.62 60.22% 96.47%;
+    --accent-foreground: 268.14 45.38% 51.18%;
 
-    --destructive: 0 100% 50%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 4 79% 57%;
+    --destructive-foreground: 0 0% 100%;
 
-    --ring: 95.08 71.08% 67.45%;
+    --ring: 268.62 60.22% 64.51%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --warning: 54 96% 45%;
+    --warning: 39 100% 57%;
 
-    --gold: 47.9 95.8% 53.1%;
+    --gold: 39 100% 57%;
 
-    --recipient-green: 100 48% 55%;
-    --recipient-blue: 212 56% 50%;
-    --recipient-purple: 266 100% 64%;
-    --recipient-orange: 36 92% 54%;
-    --recipient-yellow: 51 100% 43%;
-    --recipient-pink: 313 65% 57%;
+    --recipient-green: 151 45% 46%;
+    --recipient-blue: 206 62% 52%;
+    --recipient-purple: 268 60% 65%;
+    --recipient-orange: 20 88% 62%;
+    --recipient-yellow: 42 95% 53%;
+    --recipient-pink: 330 67% 61%;
 
     /* Base - Neutral */
-    --new-neutral-50: 0, 0%, 96%;
-    --new-neutral-100: 0, 0%, 91%;
-    --new-neutral-200: 0, 0%, 82%;
-    --new-neutral-300: 0, 0%, 69%;
-    --new-neutral-400: 0, 0%, 53%;
-    --new-neutral-500: 0, 0%, 43%;
-    --new-neutral-600: 0, 0%, 36%;
-    --new-neutral-700: 0, 0%, 31%;
-    --new-neutral-800: 0, 0%, 27%;
-    --new-neutral-900: 0, 0%, 24%;
-    --new-neutral-950: 0, 0%, 9%;
+    --new-neutral-50: 60, 17%, 98%;
+    --new-neutral-100: 60, 5%, 96%;
+    --new-neutral-200: 53, 18%, 91%;
+    --new-neutral-300: 42, 10%, 83%;
+    --new-neutral-400: 240, 11%, 60%;
+    --new-neutral-500: 240, 12%, 41%;
+    --new-neutral-600: 240, 14%, 29%;
+    --new-neutral-700: 240, 14%, 19%;
+    --new-neutral-800: 240, 16%, 14%;
+    --new-neutral-900: 240, 16%, 11%;
+    --new-neutral-950: 240, 17%, 9%;
 
     /* Base - White */
-    --new-white-50: 0, 0%, 5%;
-    --new-white-60: 0, 0%, 6%;
-    --new-white-100: 0, 0%, 10%;
-    --new-white-200: 0, 0%, 20%;
-    --new-white-300: 0, 0%, 30%;
-    --new-white-400: 0, 0%, 40%;
-    --new-white-500: 0, 0%, 50%;
-    --new-white-600: 0, 0%, 60%;
-    --new-white-700: 0, 0%, 80%;
-    --new-white-800: 0, 0%, 90%;
+    --new-white-50: 240, 17%, 9%;
+    --new-white-60: 240, 16%, 11%;
+    --new-white-100: 240, 15%, 14%;
+    --new-white-200: 240, 14%, 19%;
+    --new-white-300: 240, 12%, 29%;
+    --new-white-400: 240, 11%, 41%;
+    --new-white-500: 240, 11%, 60%;
+    --new-white-600: 42, 10%, 83%;
+    --new-white-700: 53, 18%, 91%;
+    --new-white-800: 60, 5%, 96%;
     --new-white-900: 0, 0%, 100%;
 
-    /* Primary - Green */
-    --new-primary-50: 98, 73%, 97%;
-    --new-primary-100: 95, 73%, 94%;
-    --new-primary-200: 94, 70%, 87%;
-    --new-primary-300: 95, 71%, 81%;
-    --new-primary-400: 95, 71%, 74%;
-    --new-primary-500: 95, 71%, 67%;
-    --new-primary-600: 95, 71%, 54%;
-    --new-primary-700: 95, 71%, 41%;
-    --new-primary-800: 95, 71%, 27%;
-    --new-primary-900: 95, 72%, 14%;
-    --new-primary-950: 95, 72%, 7%;
+    /* Primary - Coral */
+    --new-primary-50: 12, 100%, 98%;
+    --new-primary-100: 12, 100%, 95%;
+    --new-primary-200: 12, 100%, 90%;
+    --new-primary-300: 12, 100%, 84%;
+    --new-primary-400: 12, 100%, 78%;
+    --new-primary-500: 11, 100%, 73%;
+    --new-primary-600: 11, 76%, 61%;
+    --new-primary-700: 11, 69%, 50%;
+    --new-primary-800: 11, 61%, 39%;
+    --new-primary-900: 11, 55%, 27%;
+    --new-primary-950: 11, 52%, 18%;
 
-    /* Secondary - Info */
-    --new-info-50: 210, 54%, 95%;
-    --new-info-100: 211, 57%, 90%;
-    --new-info-200: 212, 55%, 80%;
-    --new-info-300: 212, 56%, 70%;
-    --new-info-400: 212, 56%, 60%;
-    --new-info-500: 212, 56%, 50%;
-    --new-info-600: 212, 56%, 40%;
-    --new-info-700: 212, 56%, 30%;
-    --new-info-800: 212, 55%, 20%;
-    --new-info-900: 211, 57%, 10%;
-    --new-info-950: 214, 54%, 5%;
+    /* Secondary - Purple */
+    --new-info-50: 270, 60%, 98%;
+    --new-info-100: 269, 60%, 95%;
+    --new-info-200: 269, 60%, 89%;
+    --new-info-300: 269, 60%, 81%;
+    --new-info-400: 269, 60%, 72%;
+    --new-info-500: 269, 60%, 65%;
+    --new-info-600: 268, 45%, 51%;
+    --new-info-700: 268, 44%, 41%;
+    --new-info-800: 268, 43%, 31%;
+    --new-info-900: 268, 42%, 21%;
+    --new-info-950: 268, 41%, 13%;
 
     /* Secondary - Error */
-    --new-error-50: 4, 80%, 96%;
-    --new-error-100: 3, 78%, 91%;
-    --new-error-200: 3, 79%, 83%;
-    --new-error-300: 3, 79%, 74%;
-    --new-error-400: 3, 79%, 66%;
+    --new-error-50: 6, 80%, 97%;
+    --new-error-100: 5, 79%, 92%;
+    --new-error-200: 5, 79%, 84%;
+    --new-error-300: 5, 79%, 74%;
+    --new-error-400: 5, 79%, 66%;
     --new-error-500: 4, 79%, 57%;
-    --new-error-600: 3, 79%, 46%;
-    --new-error-700: 3, 79%, 34%;
-    --new-error-800: 3, 79%, 23%;
-    --new-error-900: 3, 79%, 11%;
-    --new-error-950: 3, 80%, 6%;
+    --new-error-600: 4, 73%, 47%;
+    --new-error-700: 4, 70%, 36%;
+    --new-error-800: 4, 66%, 25%;
+    --new-error-900: 4, 62%, 16%;
+    --new-error-950: 4, 60%, 10%;
 
     /* Secondary - Warning */
-    --new-warning-50: 39, 100%, 96%;
-    --new-warning-100: 40, 100%, 93%;
+    --new-warning-50: 39, 100%, 97%;
+    --new-warning-100: 39, 100%, 93%;
     --new-warning-200: 39, 100%, 86%;
-    --new-warning-300: 39, 100%, 79%;
-    --new-warning-400: 39, 100%, 71%;
-    --new-warning-500: 39, 100%, 64%;
-    --new-warning-600: 39, 100%, 57%;
-    --new-warning-700: 39, 100%, 43%;
-    --new-warning-800: 39, 100%, 29%;
-    --new-warning-900: 39, 100%, 14%;
-    --new-warning-950: 38, 100%, 7%;
+    --new-warning-300: 39, 100%, 78%;
+    --new-warning-400: 39, 100%, 69%;
+    --new-warning-500: 39, 100%, 57%;
+    --new-warning-600: 36, 92%, 50%;
+    --new-warning-700: 33, 83%, 40%;
+    --new-warning-800: 31, 72%, 30%;
+    --new-warning-900: 29, 62%, 20%;
+    --new-warning-950: 28, 58%, 13%;
 
     /* Surface */
-    --new-surface-black: 0, 0%, 0%;
-    --new-surface-white: 0, 0%, 91%;
+    --new-surface-black: 240, 17%, 9%;
+    --new-surface-white: 60, 5%, 96%;
 
-    --envelope-editor-background: 210 40% 98.04%;
+    --envelope-editor-background: 60 16.67% 97.65%;
   }
 
   .dark:not(.dark-mode-disabled) {
-    --background: 0 0% 14.9%;
-    --foreground: 0 0% 97%;
+    --background: 240 16.36% 10.78%;
+    --foreground: 240 16.13% 93.92%;
 
-    --muted: 0 0% 23.4%;
-    --muted-foreground: 0 0% 85%;
+    --muted: 240 15.49% 13.92%;
+    --muted-foreground: 240 10.13% 69.02%;
 
-    --popover: 0 0% 14.9%;
-    --popover-foreground: 0 0% 90%;
+    --popover: 240 16.36% 10.78%;
+    --popover-foreground: 240 16.13% 93.92%;
 
-    --card: 0 0% 14.9%;
-    --card-border: 0 0% 27.9%;
-    --card-border-tint: 112 205 159;
-    --card-foreground: 0 0% 95%;
+    --card: 240 16.36% 10.78%;
+    --card-border: 240 14.29% 19.22%;
+    --card-border-tint: 255 144 118;
+    --card-foreground: 240 16.13% 93.92%;
 
-    --widget: 0 0% 14.9%;
-    --widget-foreground: 0 0% 18%;
+    --widget: 240 16.36% 10.78%;
+    --widget-foreground: 240 15.49% 13.92%;
 
-    --border: 0 0% 27.9%;
-    --input: 0 0% 27.9%;
+    --border: 240 14.29% 19.22%;
+    --input: 240 14.29% 19.22%;
 
-    --field-border: 214.3 31.8% 91.4%;
+    --field-border: 52.5 18.18% 91.37%;
 
-    --primary: 95.08 71.08% 67.45%;
-    --primary-foreground: 95.08 71.08% 10%;
+    --primary: 11.39 100% 73.14%;
+    --primary-foreground: 240 16.67% 9.41%;
 
-    --secondary: 0 0% 23.4%;
-    --secondary-foreground: 95.08 71.08% 67.45%;
+    --secondary: 240 15.49% 13.92%;
+    --secondary-foreground: 240 16.13% 93.92%;
 
-    --accent: 0 0% 27.9%;
-    --accent-foreground: 95.08 71.08% 67.45%;
+    --accent: 268.14 45.38% 18%;
+    --accent-foreground: 240 16.13% 93.92%;
 
-    --destructive: 0 87% 62%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 72% 63%;
+    --destructive-foreground: 0 0% 100%;
 
-    --ring: 95.08 71.08% 67.45%;
+    --ring: 268.62 60.22% 64.51%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --warning: 54 96% 45%;
+    --warning: 39 100% 57%;
 
-    --gold: 47.9 95.8% 53.1%;
+    --gold: 39 100% 57%;
 
-    --envelope-editor-background: 0 0% 14.9%;
+    --envelope-editor-background: 240 16.36% 10.78%;
   }
 }
 
@@ -237,31 +237,4 @@
 .scrollbar-hidden {
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
-
-.scrollbar-hidden::-webkit-scrollbar {
-  display: none;
-}
-
-/* .custom-scrollbar::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgb(100 116 139 / 1);
-  border-radius: 10px;
-  width: 8px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgb(100 116 139 / 0.5);
-} */
-
-/* Custom Swagger Dark Theme */
-.swagger-dark-theme .swagger-ui {
-  filter: invert(88%) hue-rotate(180deg);
-}
-
-.swagger-dark-theme .swagger-ui .microlight {
-  filter: invert(100%) hue-rotate(180deg);
 }

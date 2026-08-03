@@ -57,7 +57,7 @@ export const AdminLicenseStatusBanner = ({ license }: AdminLicenseStatusBannerPr
           })}
           asChild
         >
-          <Link to="https://docs.documenso.com/users/licenses/enterprise-edition" target="_blank">
+          <Link to="https://sign.youtiva.com/docs/users/licenses/enterprise-edition" target="_blank">
             <KeyRoundIcon className="mr-1.5 h-4 w-4" />
             <Trans>See Documentation</Trans>
           </Link>

@@ -4,14 +4,14 @@
   <p align="center">
   The Open Source DocuSign Alternative.
   <br>
-    <a href="https://documenso.com"><strong>Learn more »</strong></a>
+    <a href="https://sign.youtiva.com"><strong>Learn more »</strong></a>
     <br />
     <br />
     <a href="https://documen.so/discord">Discord</a>
     ·
-    <a href="https://documenso.com">Website</a>
+    <a href="https://sign.youtiva.com">Website</a>
     ·
-    <a href="https://docs.documenso.com">Documentation</a>
+    <a href="https://sign.youtiva.com/docs">Documentation</a>
     ·
     <a href="https://github.com/documenso/documenso/issues">Issues</a>
     ·
@@ -51,7 +51,7 @@ Join us in creating the next generation of open trust infrastructure.
 
 ## Community and Next Steps 🎯
 
-- Try Documenso by self-hosting it or signing up at [documenso.com](https://documenso.com).
+- Try Documenso by self-hosting it or signing up at [sign.youtiva.com](https://sign.youtiva.com).
 - Tell us what you think in the [Discussions](https://github.com/documenso/documenso/discussions).
 - Join the [Discord server](https://documen.so/discord) for any questions and getting to know other community members.
 - ⭐ the repository to help us raise awareness.
@@ -59,7 +59,7 @@ Join us in creating the next generation of open trust infrastructure.
 
 ## Contributing
 
-> **Note**: We no longer accept external pull requests, aside from a small group of trusted contributors we reach out to directly. The best way to contribute is through detailed issues. Read [Why We're Pausing External Pull Requests](https://documenso.com/blog/why-we-re-pausing-external-pull-requests) for the reasoning.
+> **Note**: We no longer accept external pull requests, aside from a small group of trusted contributors we reach out to directly. The best way to contribute is through detailed issues. Read [Why We're Pausing External Pull Requests](https://sign.youtiva.com/blog/why-we-re-pausing-external-pull-requests) for the reasoning.
 
 - Documenso stays open source. You can read, audit, run, and fork the code.
 - To report issues or propose changes, see our [contribution guide](https://github.com/documenso/documenso/blob/main/CONTRIBUTING.md).
@@ -154,7 +154,7 @@ npm run d
 
 ### Manual Setup
 
-Follow the [manual setup guide](https://docs.documenso.com/docs/developers/local-development/manual) to configure Documenso on your local machine.
+Follow the [manual setup guide](https://sign.youtiva.com/docs/docs/developers/local-development/manual) to configure Documenso on your local machine.
 
 ### Run in Gitpod
 
@@ -176,13 +176,13 @@ If you're a visual learner and prefer to watch a video walkthrough of setting up
 
 We provide official Docker images on [DockerHub](https://hub.docker.com/r/documenso/documenso) and [GitHub Container Registry](https://ghcr.io/documenso/documenso).
 
-For setup instructions, see the [Docker Deployment](https://docs.documenso.com/docs/self-hosting/deployment/docker) and [Docker Compose](https://docs.documenso.com/docs/self-hosting/deployment/docker-compose) guides.
+For setup instructions, see the [Docker Deployment](https://sign.youtiva.com/docs/docs/self-hosting/deployment/docker) and [Docker Compose](https://sign.youtiva.com/docs/docs/self-hosting/deployment/docker-compose) guides.
 
 ## Self Hosting
 
 We support a variety of deployment methods including Docker, Docker Compose, Railway, Kubernetes, and manual deployment.
 
-For full instructions, requirements, and configuration details, see the [Self Hosting documentation](https://docs.documenso.com/docs/self-hosting).
+For full instructions, requirements, and configuration details, see the [Self Hosting documentation](https://sign.youtiva.com/docs/docs/self-hosting).
 
 ### One-Click Deploys
 
@@ -208,7 +208,7 @@ If you believe you have found a security vulnerability in Documenso, please repo
 
 ## Troubleshooting
 
-For troubleshooting self-hosted deployments, see the [Troubleshooting guide](https://docs.documenso.com/docs/self-hosting/maintenance/troubleshooting) and [Tips & Common Pitfalls](https://docs.documenso.com/docs/self-hosting/getting-started/tips).
+For troubleshooting self-hosted deployments, see the [Troubleshooting guide](https://sign.youtiva.com/docs/docs/self-hosting/maintenance/troubleshooting) and [Tips & Common Pitfalls](https://sign.youtiva.com/docs/docs/self-hosting/getting-started/tips).
 
 ### I'm not receiving any emails when using the developer quickstart.
 

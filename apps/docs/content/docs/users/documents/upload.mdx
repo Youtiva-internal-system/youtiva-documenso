@@ -41,7 +41,7 @@ Other formats (`.doc`, `.odt`, `.rtf`, images) are not supported. Convert them t
 
 <Callout type="info">
   DOCX support requires the document conversion service. It is enabled on
-  [documenso.com](https://app.documenso.com). Self-hosted instances must
+  [sign.youtiva.com](https://sign.youtiva.com). Self-hosted instances must
   [configure it](/docs/self-hosting/configuration/advanced/document-conversion) before DOCX uploads
   are accepted.
 </Callout>
@@ -59,7 +59,7 @@ You can upload documents in two ways:
   <Step>
     ### Go to the Documents dashboard
 
-    Open your [Documents dashboard](https://app.documenso.com/documents).
+    Open your [Documents dashboard](https://sign.youtiva.com/documents).
 
   </Step>
   <Step>
@@ -83,7 +83,7 @@ You can upload documents in two ways:
   <Step>
     ### Go to the Documents dashboard
 
-    Open your [Documents dashboard](https://app.documenso.com/documents).
+    Open your [Documents dashboard](https://sign.youtiva.com/documents).
 
   </Step>
   <Step>
@@ -117,7 +117,7 @@ Things to keep in mind when uploading DOCX:
 - **The converted PDF will not be pixel-identical to your Word document.** Conversion uses LibreOffice, which renders most documents faithfully but differs from Microsoft Word in subtle ways. Spacing, font metrics, line breaks, and complex layout features can shift.
 - **Always review the converted PDF before adding fields or sending.** Open the document in the editor and scroll through every page to confirm it looks the way you expect.
 - **Form controls are flattened.** Word content controls (drop-downs, date pickers, checkboxes) become static text or graphics. Use Documenso fields for anything that needs to be filled in.
-- **Fonts not installed on the server fall back to substitutes.** On documenso.com, common fonts (Calibri, Arial, Times New Roman, etc.) are installed. On self-hosted instances, font fidelity depends on the operator's setup.
+- **Fonts not installed on the server fall back to substitutes.** On sign.youtiva.com, common fonts (Calibri, Arial, Times New Roman, etc.) are installed. On self-hosted instances, font fidelity depends on the operator's setup.
 - **Tracked changes and comments are preserved as they appear in Word.** Accept or reject changes and remove comments before uploading if you do not want them in the final document.
 
 If the converted PDF does not match what you expect, export the document to PDF from Word, Google Docs, or another tool and upload the PDF directly.

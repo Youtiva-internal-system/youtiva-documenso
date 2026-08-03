@@ -65,7 +65,7 @@ export const AdminLicenseCard = ({ licenseData }: AdminLicenseCardProps) => {
               )}
 
               <Link
-                to="https://docs.documenso.com/users/licenses/enterprise-edition"
+                to="https://sign.youtiva.com/docs/users/licenses/enterprise-edition"
                 target="_blank"
                 className="flex flex-row items-center text-muted-foreground text-xs hover:text-muted-foreground/80"
               >

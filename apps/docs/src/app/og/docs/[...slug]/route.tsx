@@ -7,15 +7,13 @@ import { getPageImage, source } from '@/lib/source';
 export const revalidate = false;
 
 const loadAssets = async () => {
-  const [logoBuffer, interRegularData, interSemiBoldData, interBoldData] = await Promise.all([
-    readFile(fileURLToPath(new URL('../../../../../public/logo.png', import.meta.url))),
+  const [interRegularData, interSemiBoldData, interBoldData] = await Promise.all([
     readFile(fileURLToPath(new URL('../../../../../public/fonts/inter-regular.ttf', import.meta.url))),
     readFile(fileURLToPath(new URL('../../../../../public/fonts/inter-semibold.ttf', import.meta.url))),
     readFile(fileURLToPath(new URL('../../../../../public/fonts/inter-bold.ttf', import.meta.url))),
   ]);
 
   return {
-    logoSrc: `data:image/png;base64,${logoBuffer.toString('base64')}`,
     fonts: [
       { name: 'Inter', data: interRegularData, weight: 400 as const, style: 'normal' as const },
       { name: 'Inter', data: interSemiBoldData, weight: 600 as const, style: 'normal' as const },
@@ -32,7 +30,7 @@ export async function GET(_req: Request, { params }: RouteContext<'/og/docs/[...
     notFound();
   }
 
-  const { logoSrc, fonts } = await loadAssets();
+  const { fonts } = await loadAssets();
 
   return new ImageResponse(
     <div
@@ -41,13 +39,13 @@ export async function GET(_req: Request, { params }: RouteContext<'/og/docs/[...
         flexDirection: 'column',
         width: '100%',
         height: '100%',
-        backgroundColor: 'white',
+        background:
+          'radial-gradient(circle at top left, rgba(255,144,118,0.18), transparent 320px), radial-gradient(circle at top right, rgba(162,110,219,0.18), transparent 360px), linear-gradient(180deg, #FAFAF8, #FFFFFF)',
         padding: '60px 80px',
         fontFamily: 'Inter',
         position: 'relative',
       }}
     >
-      {/* Green accent bar */}
       <div
         style={{
           position: 'absolute',
@@ -55,11 +53,10 @@ export async function GET(_req: Request, { params }: RouteContext<'/og/docs/[...
           left: 0,
           right: 0,
           height: '6px',
-          backgroundColor: '#6DC947',
+          background: 'linear-gradient(90deg, #FF9076 0%, #E76A4E 50%, #A26EDB 100%)',
         }}
       />
 
-      {/* Top: Logo */}
       <div
         style={{
           display: 'flex',
@@ -67,21 +64,40 @@ export async function GET(_req: Request, { params }: RouteContext<'/og/docs/[...
           gap: '16px',
         }}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={logoSrc} alt="Documenso" height="28" />
-        <span
+        <div
           style={{
-            color: '#D4D4D8',
-            fontSize: '28px',
-            fontWeight: 400,
+            width: '42px',
+            height: '42px',
+            borderRadius: '14px',
+            background: 'linear-gradient(135deg, #FF9076 0%, #A26EDB 100%)',
+            color: 'white',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '22px',
+            fontWeight: 700,
           }}
         >
-          |
-        </span>
-        <span style={{ color: '#71717A', fontSize: '20px', fontWeight: 400 }}>Docs</span>
+          Y
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
+          <span style={{ color: '#14141C', fontSize: '26px', fontWeight: 700, letterSpacing: '-0.03em' }}>
+            Youtiva Sign
+          </span>
+          <span
+            style={{
+              color: '#7F4ABB',
+              fontSize: '12px',
+              fontWeight: 600,
+              letterSpacing: '0.22em',
+              textTransform: 'uppercase',
+            }}
+          >
+            Docs
+          </span>
+        </div>
       </div>
 
-      {/* Middle: Title + description */}
       <div
         style={{
           display: 'flex',
@@ -106,7 +122,7 @@ export async function GET(_req: Request, { params }: RouteContext<'/og/docs/[...
         {page.data.description && (
           <p
             style={{
-              color: '#71717A',
+              color: '#5C5C74',
               fontSize: '22px',
               fontWeight: 400,
               lineHeight: 1.4,
@@ -124,9 +140,8 @@ export async function GET(_req: Request, { params }: RouteContext<'/og/docs/[...
         )}
       </div>
 
-      {/* Bottom: URL */}
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <span style={{ color: '#A1A1AA', fontSize: '16px', fontWeight: 400 }}>docs.documenso.com{page.url}</span>
+        <span style={{ color: '#8E8EA4', fontSize: '16px', fontWeight: 500 }}>sign.youtiva.com/docs{page.url}</span>
       </div>
     </div>,
     {

@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    host: 'https://docs.documenso.com',
-    sitemap: 'https://docs.documenso.com/sitemap.xml',
+    host: 'https://sign.youtiva.com/docs',
+    sitemap: 'https://sign.youtiva.com/docs/sitemap.xml',
   };
 }

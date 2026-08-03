@@ -233,7 +233,7 @@ import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
 
 <Callout type="warn">
   This guide may not reflect the latest endpoints. For an always up-to-date reference, see the
-  [OpenAPI Reference](https://openapi.documenso.com).
+  [OpenAPI Reference](https://sign.youtiva.com/openapi).
 </Callout>
 
 ## Overview
@@ -250,7 +250,7 @@ Brief description of the resource and what you can do with it.
 ## Create a Resource
 
 ```typescript
-const response = await fetch('https://app.documenso.com/api/v2/document', {
+const response = await fetch('https://sign.youtiva.com/api/v2/document', {
   method: 'POST',
   headers: {
     Authorization: 'Bearer YOUR_API_TOKEN',

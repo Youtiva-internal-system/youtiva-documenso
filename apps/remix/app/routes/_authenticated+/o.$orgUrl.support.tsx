@@ -51,7 +51,7 @@ export default function SupportPage() {
             <h2 className="flex items-center gap-2 font-bold text-lg">
               <BookIcon className="h-5 w-5 text-muted-foreground" />
               <Link
-                to="https://docs.documenso.com"
+                to="https://sign.youtiva.com/docs"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
